@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> New Java Script </title>
+    <style>
+        body {
+            background-color: rgb(0, 247, 255);
+            font-family: sans-serif;
+        }
+        .word {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        option {
+            text-align: center;
+            font-size: 25px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="word">Hello World!!!!</h1>
+    
+    
+         <option value="red" class="red">Red</option>
+         <option value="blue" class="blue">Blue</option>
+         <option value="green" class="green">Green</option>
+         <option value="black" class="black">Black</option>
+         <option value="big" class="big">Big Font</option>
+         <option value="small" class="small">Small Font</option>
+
+
+<script>
+    const word = document.querySelector(".word")
+    const red = document.querySelector(".red")
+    const green = document.querySelector(".green")
+    const blue = document.querySelector(".blue")
+    const black =document.querySelector(".black")
+    const fontBig =document.querySelector(".big")
+    const fontSmall =document.querySelector(".small")
+    black.onclick=function (){
+        word.style.color="black"
+    };
+    red.onclick=function (){
+        word.style.color="red"
+       };
+       green.onclick=function (){
+        word.style.color="green"
+       };
+       blue.onclick=function (){
+        word.style.color="blue"
+       };
+       fontBig.onclick=function (){
+        word.style.fontSize="100px"
+       };
+       fontSmall.onclick=function (){
+       word.style.fontSize="10px"
+    };
+
+    
+</script>
+</body>
+</html>
